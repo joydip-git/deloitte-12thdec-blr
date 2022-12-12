@@ -27,25 +27,95 @@ Apache Tomcat
 
 
 CSS: Cascading style sheet
+ ways to apply style:
+		a. in-line style: <HTML-tag style="border:2px solid black">
+		b. out-line style:
+			<style> tag : can be placed in the <head> or in the <body> tag or simultaneously in both
+		c. out-file style:
+			create separate CSS file
+			link it with HTML file using <link> tag
+			<link href="path-of-css-file" rel="stylesheet">
 
-CSS properties
-border:2;
-margin:10;
-padding:5; 
-height:80; 
-width:100; 
+CSS properties => type of style you want to set like the following
+css-property-name:value
+Example:
+border:2px;
+margin:10px;
+padding:5px; 
+height:80px; 
+width:100px; 
 background-color:lime;
 color:black
 
-css-property-name:value
 
-CSS measurement techniques
+CSS measurement units
 percentage (%)
 piexel(px)
 points(pt)
-em
+em etc.
 
-<em>
+CSS selectors: applicable when you write CSS styles in separate style tag or CSS file (NOT in-line)
+
+name selector:set of styles with name of element(s)
+	element-name1, element-name2,....{
+		prop-name:prop-value;
+		.....
+	}
+id selector: set of styles with id of element(s)
+uses # operator (#id)
+	#element1-id,#element2-id,...{
+		prop-name:prop-value;
+		.....
+	}
+class selector: set of styles with just name of the set (it is not decided on which elements this set of styles will be applied, when this set of styles is created)
+uses dot operator (.class-name)
+
+create:
+	.class-name{
+		prop-name:prop-value;
+		.....
+	}
+
+apply:
+<element-name class="class-name">
+
+apply style=> cascading effect
+
+precedent or specificity: (priority)
+browser style
+CSS file/style tag style
+in-line style
+
+CSS layouts: 
+	flex-box
+	grid
+	float
+	table
+	positioning
+	multiple-column
+
+product entry form will accept following values:
+	- name of product
+	- price of product
+	- description of product
+	- release date (calender)
+	- image
+	- code (number-1,2,3,4 /string-abc-123, gdn-435)
+	- button to add the product
+
+styling: should be at the center of the page
+	display the inputs using label
+	font family:segoe ui
+	font-size: medium
+	padding:
+	margin:
+	or
+	width:
+	height
+	back color
+	color of the text
+	layout
+
 
 
 

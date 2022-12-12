@@ -8,6 +8,8 @@
     <meta name="description" content="simple basic web page">
     <meta name="keywords" content="HTML,CSS, JavaScript">
     <title>First Web App</title>
+    <link href="./styles/appstyle.css" rel="stylesheet">
+    <!--
     <style>
         /*class selector*/
         .commonStyle {
@@ -51,6 +53,7 @@
             font-size: medium;
         }*/
     </style>
+    -->
 </head>
 
 <body>
@@ -107,9 +110,14 @@
             <input type="button" id="btnAdd" value="Add">
         </div>
     </form> -->
-    <div id="divTextBox" class="commonStyle">
-        <textarea style="width:200px;padding: 2px;height: 20px;border-radius: 10px;" name="" id="areaContent" cols="20"
-            rows="1"></textarea>
+    <div id="divTextBox" class="fontFamilyStyle divStyle">
+        <div style="float: left;">
+            Enter Value:&nbsp;
+        </div>
+        <div style="float: right;">
+            <textarea class="fontFamilyStyle textAreaStyle" name="" id="areaContent" cols="20" rows="1"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"></textarea>
+        </div>
     </div>
 </body>
 
