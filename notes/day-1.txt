@@ -1,0 +1,42 @@
+localhost => C:\inetpub\wwwroot 
+localhost\first-web-app => C:\inetpub\wwwroot => first-web-app(index.html)
+
+http://172.16.29.203/deloitte-apps/first-app/index.html
+
+Pr@cticing
+http://172.16.29.203/recap-app/index.html
+
+elements in HTML
+	- in-line
+	- block
+
+https://github.com/joydip-git/deloitte-12thdec-blr
+
+<html>
+<html/>
+
+every tag can have
+		- another tag(s)
+		- content 
+certain tags might not have either of the above - br, hr, meta etc.: empty tag
+< br />, <hr /> or <br> <hr>, <meta> (self-closing tag)
+
+web server s/w:
+windows: IIS (Internet Information Services)
+Apache Tomcat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
