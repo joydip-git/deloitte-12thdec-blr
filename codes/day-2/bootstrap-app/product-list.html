@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joydip">
+    <meta name="description" content="simple basic web page">
+    <meta name="keywords" content="HTML,CSS, JavaScript">
+    <title>First Web App</title>
+    <script src="./styles/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/theme.min.css">
+    <link href="./styles/appstyle.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Product Management System</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./home.html">Home
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="true">Products</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./product-list.html">View All</a>
+                                <a class="dropdown-item" href="./product-form.html">Add</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <header class="text-muted">
+            <h2>Product List:</h2>
+        </header>
+        <br>
+        <table class="table table-hover">
+            <thead class="theadStyle text-muted">
+                <tr>
+                    <td scope="col">Image</td>
+                    <td scope="col">Name</td>
+                    <td scope="col">Price</td>
+                    <td scope="col" class="centerStyle">Modify</td>
+                </tr>
+            </thead>
+            <tbody class="table-dark">
+                <tr>
+                    <td>
+                        <img src="./images/flight.jfif" alt="NA" title="Dell Laptop" class="imgStyle">
+                    </td>
+                    <td>Dell XPS</td>
+                    <td>100000</td>
+                    <td class="centerStyle">
+                        <button type="button" class="btn btn-success">
+                            <i class="bi bi-pencil-square"></i>
+                            Edit
+                        </button>
+                        <button type="button" class="btn btn-danger">
+                            <i class="bi bi-trash3-fill"></i>
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./images/flight.jfif" alt="NA" title="HP Laptop" class="imgStyle">
+                    </td>
+                    <td>HP Probook</td>
+                    <td>120000</td>
+                    <td class="centerStyle">
+                        <button type="button" class="btn btn-success">
+                            <i class="bi bi-pencil-square"></i> Edit
+                        </button>
+                        <button type="button" class="btn btn-danger">
+                            <i class="bi bi-trash3-fill"></i>
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- <div id="divTextBox" class="fontFamilyStyle divStyle">
+        <div style="float: left;">
+            Enter Value:&nbsp;
+        </div>
+        <div style="float: right;">
+            <textarea class="fontFamilyStyle textAreaStyle" name="" id="areaContent" cols="20" rows="1"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"></textarea>
+        </div>
+    </div> -->
+</body>
+
+</html>

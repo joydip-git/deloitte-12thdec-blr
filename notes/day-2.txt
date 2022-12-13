@@ -1,0 +1,52 @@
+JavaScript:
+	a scripting language
+	provides dynamism in static web page
+	loosely typed language
+	dynamic language
+
+event-driven model
+
+code --> compiler --> machine level language (0/1)
+C++, C#, Java, C
+
+data types in JS:
+Number (10/12.34)
+boolean (true/false)
+string ('deloitte'/'a')
+object { name:'Joydip', location:'Bangalore', salary:1000, isTrainer:true}
+function
+
+var obj = { name:'Joydip', location:'Bangalore', salary:1000, isTrainer:true}
+var num = 10
+var bl = true
+var companyName = 'deloitte'
+//function expression
+var func-name = function(parameters){
+	//code
+}
+
+//function declaration
+function func-name(parameters){
+	//code
+}
+
+
+
+
+undefined, null, NaN, Infinity 
+var x = undefined
+
+10+undefined (NaN)
+
+var a =10
+var b = 0
+var res = a/b
+
+W3C: World wide web consortium
+ECMAScript (ES) => guideline language
+
+
+
+
+
+

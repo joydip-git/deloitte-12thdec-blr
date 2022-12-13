@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Product</title>
+    <script src="./styles/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/theme.min.css">
+    <link href="./styles/appstyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Product Management System</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./home.html">Home
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="true">Products</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./product-list.html">View All</a>
+                                <a class="dropdown-item" href="./product-form.html">Add</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <form>
+            <div class="mb-3">
+                <label for="txtProductName" class="form-label">Product Name: &nbsp;&nbsp;</label>
+                <input type="text" id="txtProductName" placeholder="enter product name here" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="txtProductPrice" class="form-label">Product Price: &nbsp;&nbsp;</label>
+                <input type="number" id="txtProductPrice" placeholder="enter product price here" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="fileProductImage" class="form-label">Select a Product Image: &nbsp;&nbsp;</label>
+                <input type="file" id="fileProductImage" placeholder="select an image" class="form-control">
+            </div>
+            <div class="centerStyle">
+                <input type="button" id="btnAdd" value="Add" class="btn btn-primary">
+                &nbsp;
+                <input type="button" id="btnCancel" value="Cancel" class="btn btn-warning">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
