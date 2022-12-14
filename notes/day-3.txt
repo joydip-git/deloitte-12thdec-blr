@@ -1,0 +1,171 @@
+JavaScript:
+1. types of data (Number, String, Boolean, Object and Function)
+2. Functions in JS
+	a. declaration
+
+		add(10,20)
+		function add(first,second){
+			//return 
+		}
+		add(10,20)
+
+	b. expression
+		//add(10,20)
+		var add 
+		add = function(first,second){
+				//return 
+		}
+		add(120,20)
+
+
+
+		var x (undefined)
+		clg(x)
+		x = 100
+		clg(x)
+
+
+		function foo(arg){
+		}
+		foo(12)
+		foo(12.34)
+		foo(true)
+		foo('asjdjhasg')
+		foo({prop-name:value})
+		foo(add)
+
+		var a = 10
+		var b = 20
+
+		//statements: conditional, looping, default, break, continue
+		//conditional statement (if, if...else)
+		if(condition){
+			//code
+		}else{
+			//code
+		}
+
+		if(a>b)
+			clg('a is greater')
+		else
+			clg('b is greater')
+
+		var selection='n'/'s'/'i'
+		switch(selection){
+				case 'n':
+					//sort the records by name
+					break;
+
+				case 's':
+					//sort the records by salary
+					break;
+
+				case 'i':
+					//sort the records by id
+					break;
+
+				default:
+					//sort the records by id
+					break;
+		}
+
+		
+		if(selection==1){
+			//sort the records by name
+		}
+		if(selection==2){
+			//sort the records by salary
+		}
+		if(selection==3){
+			//sort the records by id
+		}
+
+		//loops		
+		while(condition){
+			//code
+		}
+
+		var a = 5
+		while(a>0){
+			//code
+			a = a-1
+		}
+
+		do{
+			//code
+		}while(condition)
+
+		do{
+			//code
+			a = a-1
+		}while(a>0)
+
+		for(var var-name=value;condition;var-name++/var-name--){
+		}
+
+		for(var a=0;a<5;a++){
+			//code
+			clg(a)
+		}
+
+		
+		var sentence = 'My name is khan'
+		length = n
+		last index = n-1
+
+		var word
+		for(var i=0;i<sentence.length;i++){
+			var char = sentence[i]
+			if(char == ' ')
+				continue
+			else{
+					word +=char
+			}
+		}
+
+		operators:
+		+, -, *, /, % => arithmatic operators
+		=, +=, -=, *=, /= => assignment operators
+
+		var a = 10
+		a+=5 (a = a+5)
+		a-= 5 (a = a-5)
+		.....
+
+		++, -- => increment and decrement operators
+	  >, <, >=, <= => relational operators
+		==, !=, !, === (strict equality), !== => Equality operators
+		&&, ||  => AND and OR operator
+
+		var a = 10
+		var b = 10
+		if(a==b) => whether the values in a and b are same or not
+		if(a===b) => whether the values in a and b as well as the types of a and b are same or not
+
+	var strValue = window.prompt('enter value',0)
+	parseFloat(strValue) //convert to fractional number type value
+	or
+	parseInt(strValue) //convert to non-fractional number type value
+	or 
+	Number(strValue) //convert to number (whichever the string holds)
+	or
+	+(strValue)
+
+	display a menu
+	take a choice from user
+	take values from user
+	based on that call a function
+	print o/p
+	
+	repeat (untill and unless user says n/N)
+	
+	
+
+
+
+
+
+
+
+
+
