@@ -158,6 +158,63 @@ JavaScript:
 	print o/p
 	
 	repeat (untill and unless user says n/N)
+
+array: collection of similar type of elements
+collection of number type values, string type values or similar type of objects
+
+var arr-address-var = [val1, val2,....]
+var arr-address-var = new Array(val1,val2,....)
+
+[] => indexer
+var value = arr-address-var[index-value]
+
+var numbers = [10,20,30]
+var numbers = new Array(10,20,30)
+numbers.push(100,200,300)
+
+var copiedValues = numbers.slice(2,5)
+var deletedValues = numbers.splice(2,3) [numbers=>[10,20,300], deletedValues=>[30,100,200])
+
+or
+
+var deletedValues = numbers.splice(2,3,400,500,600)[numbers=>[10,20,400,500,600,300], deletedValues=>[30,100,200])
+
+numbers[0]
+numbers[1]
+numbers[2]
+
+{
+	name: 'anish',
+	id:1,
+	print: function(){}
+}
+
+{
+	0: 10,
+	1: 20,
+	2: 30,
+	push:function(val){
+	},
+	filter:function(){},
+	sort:function(){},
+	.....
+}
+
+function filterValues(arr){
+	//code to filter
+	//return a new array with ONLY just the even numbers
+}
+var numbers = [10,20,30]
+var evenNumbers = filterValues(numbers)
+
+function transformValues(arr){
+	//code to transform
+	//return a new array with the transformed numbers
+}
+var numbers = [10,20,30]
+transformValues(numbers)
+
+
 	
 	
 
