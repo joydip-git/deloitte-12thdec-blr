@@ -1,0 +1,9 @@
+Objects in JS:
+1. collection of properties and their corresponding values
+2. dynamically expandable
+3. can be looped using for...in loop
+4. can have value and functional properties
+	 Example: Array is an object
+5. can be created using following techniques:
+		a. Object literal syntax
+	  b. constructor function
