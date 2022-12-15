@@ -5,5 +5,6 @@ Objects in JS:
 4. can have value and functional properties
 	 Example: Array is an object
 5. can be created using following techniques:
-		a. Object literal syntax
-	  b. constructor function
+	a. Object literal syntax
+	b. constructor function
+	c. class keyword

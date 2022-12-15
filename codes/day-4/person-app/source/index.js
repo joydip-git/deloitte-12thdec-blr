@@ -1,8 +1,10 @@
-var anilPersonObj = new person('anil', 2, 3000)
+var anilPersonObj = new Person('anil', 2, 3000)
 console.log(anilPersonObj)
-var sunilPersonObj = new person('sunil', 1, 2000)
-var joyPersonObj = new person('joydip', 3, 1000)
+var sunilPersonObj = new Person('sunil', 1, 2000)
+var joyPersonObj = new Person('joydip', 3, 1000)
 
+anilPersonObj.name = 'Anil Kumar'
+console.log(anilPersonObj.name)
 var people = [anilPersonObj, sunilPersonObj, joyPersonObj]
 
 people
