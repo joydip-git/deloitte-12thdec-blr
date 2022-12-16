@@ -1,0 +1,84 @@
+DOM (Document Object Model) and DOM interaction
+
+var btnAnother = new Button()
+btnAnother.id="btnAnother"
+btnAnother.innerText = "Another Click"
+
+dom-element.addEventListener('event-name',callback-function)
+document => 
+		var elementObj = document.createElement('tag-name')
+		elementObj.attribute-name=value
+
+		elementObj.style.<css-property-in-JS>=value
+		
+		CSS-prop-name 		=> JS proprty name
+		---------------------------------------
+		background-color => backgroundColor
+		elementObj.style.backgroundColor='lime'
+		
+		single CSS class name:
+		-----------------------------------------------------------
+		elementObj.className = 'css-class-selector-name'
+
+		more than one CSS class:
+		-----------------------------------------------------------
+		elementObj.classList.add(series-of-class-selector-name-as-string-values)
+
+		document.append(series-of-html-node-objects)
+		document.appendChild(only-one-html-node-object)
+
+		var searchedElementObj = document.getElementById('id-of-the-element')
+		
+
+a. class, constructor
+b. templated string or string interpolation
+c. const, let (scoped variable)
+
+JSON: JavaScript Object Notation
+
+JS:
+//var x = 100
+var obj ={ x:100 }
+var obj ={
+		name:'joy', 
+		id:1, 
+		isTrainer:true,
+		students:["vignesh","varsha"]
+}
+var list=[
+{
+		name:'joy', 
+		id:1, 
+		isTrainer:true,
+		students:["vignesh","varsha"]
+},
+{
+		name:'anil', 
+		id:2, 
+		isTrainer:true,
+		students:["vignesh","varsha"]
+}
+]
+
+JSON:
+{"x":100}
+
+{ "name":"joy", "id":1, "isTrainer":true, "students":["vignesh","varsha"]}
+
+array in JSON:
+[
+{
+		"name":"joy", "id":1, "isTrainer":true, students":["vignesh","varsha"]
+},
+{
+		"name":"joy", "id":1, "isTrainer":true, students":["vignesh","varsha"]
+}
+]
+
+convert JS object/array into JSON format
+JSON.stringify(JS-OBJECT/ARRAY)
+
+convert JSON object/array into JS
+JSON.parse(JSON-FORMATTED-DATA)
+
+

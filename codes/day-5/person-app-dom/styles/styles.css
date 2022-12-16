@@ -1,0 +1,18 @@
+.messageStyle {
+  background-color: lime;
+  width: 200px;
+  margin: 10px;
+}
+.borderStyle {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.centerStyle {
+  text-align: center;
+}
+.spaceStyle {
+  margin-top: 10px;
+}
+.headerStyle {
+  background-color: burlywood;
+}
